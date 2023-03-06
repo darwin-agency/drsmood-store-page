@@ -22,6 +22,7 @@
   padding-bottom: 40px;
   padding-left: 32px;
   padding-right: 32px;
+  background: #f8f7f3;
 }
 
 .menu-container {
@@ -41,18 +42,17 @@
   gap: 1px;
 }
 
-.menu-container-row{
+.menu-container-row {
   display: flex;
   justify-content: space-between;
 }
 
-.menu-container-submenu{
+.menu-container-submenu {
   display: flex;
   align-items: center;
-
 }
 
-.menu-container-submenu .submenu{
+.menu-container-submenu .submenu {
   margin-left: 47px;
   font-size: 21px;
 }
@@ -71,13 +71,13 @@
   border: 1.48475px solid #3a3a3a;
 }
 
-.menu-container ul{
+.menu-container ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
-.information{
+.information {
   height: 83px;
   margin-top: 15px;
   display: flex;
@@ -95,26 +95,26 @@
   color: #3a3a3a;
 }
 
-.information__container{
+.information__container {
   display: flex;
   justify-content: space-between;
 }
 
-.information .description{
+.information .description {
   width: 100%;
   max-width: 342px;
   height: 50px;
   margin-top: 2px;
 }
 
-.information-slot__prices{
+.information-slot__prices {
   display: flex;
   width: 100%;
-  max-width: 185px;;
+  max-width: 185px;
   justify-content: space-between;
 }
 
-.information-slot__prices div{
+.information-slot__prices div {
   display: flex;
   justify-content: flex-end;
   width: 81px;
@@ -123,8 +123,9 @@
 
 .info-container {
   display: flex;
-  height: 100vh;
   flex-direction: column;
+  max-width: 665px;
+  width: 100%;
 }
 
 .info-container > h1 {
@@ -207,6 +208,12 @@
   border-radius: 10px;
   margin-top: 32px;
   width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .store-container {
+    flex-direction: column;
+  }
 }
 
 .mapbox {
