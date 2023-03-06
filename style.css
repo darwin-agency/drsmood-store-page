@@ -24,6 +24,22 @@
   gap: 1px;
 }
 
+.menu-container-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-container-submenu{
+  display: flex;
+  align-items: center;
+
+}
+
+.menu-container-submenu .submenu{
+  margin-left: 47px;
+  font-size: 21px;
+}
+
 .menu-container header span {
   font-family: "Denton Condensed";
   font-style: normal;
@@ -38,13 +54,54 @@
   border: 1.48475px solid #3a3a3a;
 }
 
-.menu-container ul li .information h3 {
+.menu-container ul li{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.information{
+  height: 83px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.information-title {
   font-family: "Brandon Grotesque";
   font-style: normal;
   font-weight: 420;
   font-size: 21.7763px;
   line-height: 31px;
+  padding: 0px;
+  margin: 0px;
   color: #3a3a3a;
+}
+
+.information__container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.information .description{
+  width: 100%;
+  max-width: 342px;
+  height: 50px;
+  margin-top: 2px;
+}
+
+.information-slot__prices{
+  display: flex;
+  width: 100%;
+  max-width: 185px;;
+  justify-content: space-between;
+}
+
+.information-slot__prices div{
+  display: flex;
+  justify-content: flex-end;
+  width: 81px;
+  font-size: 21px;
 }
 
 .info-container {
