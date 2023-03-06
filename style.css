@@ -1,3 +1,20 @@
+@font-face {
+  font-family: "Denton Condensed";
+  src: url("DentonCondensed-Regular.woff2") format("woff2"),
+    url("DentonCondensed-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Denton Condensed Italic";
+  src: url("DentonCondensed-RegularItalic.woff2") format("woff2"),
+    url("DentonCondensed-RegularItalic.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 .store-container {
   display: flex;
   gap: 60px;
