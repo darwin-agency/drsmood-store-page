@@ -15,6 +15,8 @@
   font-display: swap;
 }
 
+@import url("https://use.typekit.net/ckd2yhv.css");
+
 .store-container {
   display: flex;
   gap: 60px;
@@ -44,12 +46,12 @@
 .menu-container-row{
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 
 .menu-container-submenu{
   display: flex;
   align-items: center;
-
 }
 
 .menu-container-submenu .submenu{
@@ -102,9 +104,10 @@
 
 .information .description{
   width: 100%;
-  max-width: 342px;
-  height: 50px;
+  max-width: 400px;
   margin-top: 2px;
+  font-size: 17.82px;
+  font-family: "Brandon-Grotesque";
 }
 
 .information-slot__prices{
@@ -112,6 +115,7 @@
   width: 100%;
   max-width: 185px;;
   justify-content: space-between;
+  font-family: "Brandon-Grotesque";
 }
 
 .information-slot__prices div{
@@ -119,6 +123,7 @@
   justify-content: flex-end;
   width: 81px;
   font-size: 21px;
+  font-family: "Brandon-Grotesque";
 }
 
 .info-container {
