@@ -1,5 +1,11 @@
 <head>
   <link rel="stylesheet" href="./style.css" />
+
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css"
+    rel="stylesheet"
+  />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
 </head>
 <div class="page-width">
   <main class="store-container">
@@ -108,6 +114,25 @@
         our menu shifts from breakfast and lunch to a new dinner menu ripe with
         delicious plates to share.
       </h4>
+      <div id="map"></div>
+      <div class="order-online">
+        <span class="order-online--description">Online Store</span>
+      </div>
     </section>
   </main>
+
+  <script>
+    mapboxgl.accessToken =
+      "pk.eyJ1IjoibHVpemtjIiwiYSI6ImNsZXQwZ2M2ajBjeW4zem1hYnUyemJwOTQifQ.3qu-Cyft6hQ-leKjgYSO_w";
+    const map = new mapboxgl.Map({
+      container: "map", // container ID
+      style: "mapbox://styles/luizkc/clet0ghtw00ad01oal8vppqgs", // style URL
+      center: [-80.199179, 25.798288], // starting position [lng, lat]
+      zoom: 16, // starting zoom
+    });
+
+    const marker = new mapboxgl.Marker({ color: "red" })
+      .setLngLat([-80.199179, 25.798288])
+      .addTo(map);
+  </script>
 </div>
