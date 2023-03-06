@@ -71,7 +71,7 @@
   border: 1.48475px solid #3a3a3a;
 }
 
-.menu-container ul li{
+.menu-container ul{
   list-style: none;
   padding: 0px;
   margin: 0px;
@@ -123,6 +123,7 @@
 
 .info-container {
   display: flex;
+  height: 100vh;
   flex-direction: column;
 }
 
