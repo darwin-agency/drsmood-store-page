@@ -125,6 +125,32 @@
   color: #f8f7f3;
 }
 
+.order-online {
+  max-width: 670px;
+  width: 100%;
+  background: #737b5e;
+  padding: 12px 0px 12px 16px;
+  border-radius: 4.49775px;
+  margin-top: 32px;
+}
+
+.order-online--description {
+  text-transform: uppercase;
+  color: #f8f7f3;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: "Brandon-Grotesque";
+  font-weight: 450;
+}
+
+#map {
+  max-width: 673px;
+  height: 401px;
+  border-radius: 10px;
+  margin-top: 32px;
+  width: 100%;
+}
+
 .mapbox {
   padding-top: 18px;
 }
