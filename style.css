@@ -119,6 +119,10 @@
   font-family: "Brandon-Grotesque";
 }
 
+.information-slot__prices--end{
+  justify-content: flex-end;
+}
+
 .information-slot__prices div {
   display: flex;
   justify-content: flex-end;
