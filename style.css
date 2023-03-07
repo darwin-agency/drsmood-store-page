@@ -213,6 +213,19 @@
   font-weight: 450;
 }
 
+.marker-tooltip {
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  width: fit-content;
+}
+
+.mapboxgl-popup-close-button {
+  outline: none;
+}
+
 #map {
   max-width: 673px;
   height: 401px;
