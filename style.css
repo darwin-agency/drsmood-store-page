@@ -81,10 +81,22 @@
 }
 
 .information {
-  height: 83px;
-  margin-top: 15px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
+}
+
+.footer-menu{
+  width: 100%;
+  border: 1px solid black;
+  border-bottom:0px ;
+  line-height: 58.3px;
+  text-align: center;
+  font-family: "Denton Condensed";
+  font-style: italic;
+  font-size: 22px;
+  margin-top: 46px;
+  margin-bottom: -15px;
 }
 
 .information-title {
