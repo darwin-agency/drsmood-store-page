@@ -10,7 +10,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <link rel="stylesheet" href="https://use.typekit.net/kej8odm.css" />
-
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
   <script src="https://unpkg.com/@mapbox/mapbox-gl-markers"></script>
 </head>
@@ -199,6 +198,7 @@
       return {
         marker,
         tooltip,
+        map,
       };
     }
 
@@ -206,7 +206,7 @@
       tooltip.getElement().className = "marker-tooltip";
       tooltip.setPopup(
         new mapboxgl.Popup({ offset: 25 }).setHTML(
-          "<h3>Dr Smood Wynwood</h3><p>phone: (786) 334-5508</p><p>hello@drsmood.com</p>"
+          "<h3>Dr Smood Wynwood</h3><p>phone: (786) 334-5508</p><p>address: 2230 NW 2nd Ave, Miami, FL, 33127</p><p>hours: Mon-Fri: 8am-8pm, Sat-Sun: 9am-8pm</p>"
         )
       );
       tooltip
@@ -216,6 +216,6 @@
 
     init()
       .then((map) => createTooltip(map))
-      .then((elments) => handleTooltip(elments));
+      .then((elements) => handleTooltip(elements));
   </script>
 </div>

@@ -26,7 +26,6 @@
   padding-right: 32px;
   background: #f8f7f3;
   height: 100vh;
-  
 }
 
 .menu-container {
@@ -191,6 +190,20 @@
   color: #f8f7f3;
 }
 
+.mapboxgl-popup-content {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: #f8f7f3 !important;
+  font-family: "Brandon-Grotesque";
+}
+
+.mapboxgl-popup-content > p,
+h3 {
+  margin: unset;
+}
+
 .order-online {
   max-width: 670px;
   width: 100%;
@@ -238,19 +251,19 @@
     max-height: auto;
   }
 
-  .information{
+  .information {
     height: auto;
   }
 
-  .submenu{
+  .submenu {
     font-size: 18px !important;
   }
 
-  .menu-container header span{
+  .menu-container header span {
     font-size: 25px;
   }
 
-  .information .description{
+  .information .description {
     max-width: auto;
   }
 
@@ -258,16 +271,15 @@
     min-width: unset;
     width: 100%;
   }
-  
 }
 
 @media screen and (max-width: 420px) {
-  .information-slot__prices div{
+  .information-slot__prices div {
     justify-content: start;
     font-size: 18px;
   }
 
-  .chip > span{
+  .chip > span {
     white-space: nowrap;
   }
 }
