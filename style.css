@@ -40,6 +40,37 @@
   height: 100vh;
 }
 
+.header__container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.header__container-mb-0{
+  margin-bottom: 0px;
+}
+
+.header__slot{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.header__slot--mr-0{
+  margin-right: 0px;
+}
+
+.header__slot img{
+  margin-left: 4px;
+  width: 13px;
+  height: 13px;
+}
+
+.header__slot .header__title-bold{
+  font-weight: 450;
+}
+
 .menu__container{
   width: 100%;
   height: 100%;
@@ -143,6 +174,11 @@
   font-size: 20px;
   margin-top: 46px;
   margin-bottom: -15px;
+}
+
+.container__information-title{
+  display: flex;
+  align-items: center;
 }
 
 .information-title {
