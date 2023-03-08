@@ -60,7 +60,7 @@
 }
 
 .menu--marginTop{
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .menu header {
@@ -84,6 +84,10 @@
   margin-top: 30px;
 }
 
+.menu-row--mt-0{
+  margin-top: 0px;
+}
+
 .menu-submenu {
   display: flex;
   align-items: center;
@@ -98,7 +102,7 @@
 .menu header span {
   font-family: "Denton Condensed";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 420;
   font-size: 29.695px;
   line-height: 39px;
   color: #3a3a3a;
@@ -116,7 +120,7 @@
 }
 
 .information {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -159,7 +163,7 @@
 
 .information .description {
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   margin-top: 2px;
   font-size: 17.82px;
   font-family: "Brandon-Grotesque";
@@ -175,6 +179,7 @@
 
 .information-slot__prices--end{
   justify-content: flex-end;
+  width: auto;
 }
 
 .information-slot__prices div {
