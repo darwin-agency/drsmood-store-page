@@ -177,6 +177,10 @@
   font-family: "Brandon-Grotesque";
 }
 
+.information-slot__prices--column{
+  flex-direction: column;
+}
+
 .information-slot__prices--end{
   justify-content: flex-end;
   width: auto;
