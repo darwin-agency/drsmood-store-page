@@ -17,6 +17,18 @@
 
 @import url("https://use.typekit.net/ckd2yhv.css");
 
+*::-webkit-scrollbar {
+  width: 8px;
+  height: 6px;
+  border-radius: 100px;
+  background-color: #eaebed;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background-color: #D9D9D9;
+}
+
 .store-container {
   display: flex;
   gap: 60px;
@@ -28,74 +40,145 @@
   height: 100vh;
 }
 
-.menu-container {
+.header__container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.header__container-mb-0{
+  margin-bottom: 0px;
+}
+
+.header__slot{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.header__slot--mr-0{
+  margin-right: 0px;
+}
+
+.header__slot img{
+  margin-left: 4px;
+  width: 13px;
+  height: 13px;
+}
+
+.header__slot .header__title-bold{
+  font-weight: 450;
+}
+
+.menu__container{
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+.menu {
   padding: 13.36px 24.25px 13.36px 23.47px;
   border-radius: 10px;
   border: 1px solid #000000;
-  width: 100%;
-  min-width: 605px;
-  overflow-x: scroll;
+  overflow: hidden;
 }
 
-.menu-container header {
+.menu--border-0{
+  width: 100%;
+  border: 0px;
+  padding: 0px;
+}
+
+.menu--marginTop{
+  margin-top: 30px;
+}
+
+.menu header {
   display: flex;
   flex-direction: column;
   gap: 1px;
 }
 
-.menu-container-row {
+.menu-subheader{
+  border-bottom: 3px dashed black;
+  font-size: 25px;
+  font-weight: 420;
+  font-family: "Brandon Grotesque";
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+.menu-row {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-.menu-container-submenu {
+.menu-row--mt-0{
+  margin-top: 0px;
+}
+
+.menu-submenu {
   display: flex;
   align-items: center;
 }
 
-.menu-container-submenu .submenu {
+.menu-submenu .submenu {
   margin-left: 47px;
   font-size: 21px;
+  font-weight: 390;
 }
 
-.menu-container header span {
+.menu header span {
   font-family: "Denton Condensed";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 420;
   font-size: 29.695px;
   line-height: 39px;
   color: #3a3a3a;
 }
 
-.menu-container header hr {
+.menu header hr {
   width: 100%;
   border: 1.48475px solid #3a3a3a;
 }
 
-.menu-container ul {
+.menu ul {
   list-style: none;
   padding: 0px;
   margin: 0px;
 }
 
 .information {
-  margin-top: 30px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
 
+.information--margin-20{
+  margin-top: 20px;
+}
+
+.information__emphasis{
+  font-weight: 330;
+}
+
 .footer-menu{
   width: 100%;
-  border: 1px solid black;
-  border-bottom:0px ;
+  border-bottom:0px;
   line-height: 58.3px;
   text-align: center;
   font-family: "Denton Condensed";
   font-style: italic;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 46px;
   margin-bottom: -15px;
+}
+
+.container__information-title{
+  display: flex;
+  align-items: center;
 }
 
 .information-title {
@@ -106,7 +189,7 @@
   line-height: 31px;
   padding: 0px;
   margin: 0px;
-  color: #3a3a3a;
+  color: black;
 }
 
 .information__container {
@@ -116,7 +199,7 @@
 
 .information .description {
   width: 100%;
-  max-width: 400px;
+  max-width: 420px;
   margin-top: 2px;
   font-size: 17.82px;
   font-family: "Brandon-Grotesque";
@@ -130,8 +213,13 @@
   font-family: "Brandon-Grotesque";
 }
 
+.information-slot__prices--column{
+  flex-direction: column;
+}
+
 .information-slot__prices--end{
   justify-content: flex-end;
+  width: auto;
 }
 
 .information-slot__prices div {

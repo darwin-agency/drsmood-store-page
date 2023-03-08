@@ -8,164 +8,2288 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
   <link rel="stylesheet" href="https://use.typekit.net/kej8odm.css" />
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
   <script src="https://unpkg.com/@mapbox/mapbox-gl-markers"></script>
 </head>
 <div class="page-width">
   <main class="store-container">
-    <section class="menu-container">
-      <header>
-        <span> Breakfast </span>
-        <hr />
-      </header>
-      <ul>
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Coconut Probiotic Yogurt</h3>
-                <div class="description">
-                  Coconut Yogurt, Mango, Ginger Nut Crumble, Mango Coulis, Mint
+    <section class="menu__container">
+      <div class="header__container">
+        <div class="header__slot">
+          <span>Contains Nuts</span>
+          <img src="images/contains_nuts.svg">
+        </div>
+  
+        <div class="header__slot">
+          <span>Vegan</span>
+          <img src="images/vegan.svg">
+        </div>
+  
+        <div class="header__slot">
+          <span>Organic Ingredients</span>
+          <img src="images/organic_igredients.svg">
+        </div>
+      </div>
+
+      <div class="menu">
+        <header>
+          <span> Breakfast </span>
+          <hr />
+        </header>
+        <ul>
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Coconut Probiotic Yogurt</h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/vegan.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/contains_nuts.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    Coconut Yogurt, Mango, Ginger Nut Crumble, Mango Coulis, Mint
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$13.00</div>
+                </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Superfood Steal Cut Oatmeal</h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/contains_nuts.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    Oats, Chia Seeds, Maca, Flaxseeds, Sacha Inchi, Lucuma, Banana, Blueberry, Cinnamon, Almond Butter, Honey
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$14.00</div>
+                </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Quiche</h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/contains_nuts.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    Eggs, Spinach, Parmesan,  Heavy Cream, Salt, Black Pepper, Puff Pastry 
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$12.00</div>
+                </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Cacao Chia Pudding V</h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/contains_nuts.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    w/ Cashews, Lucuma, Matcha, Vanilla, Mulberries, Pumpkin Seeds, Goji Berries
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$12.00</div>
+                </div>                  
+            </div>
+          </li>
+        </ul>
+
+        <header>
+          <div class="menu-row">
+            <span>Toast</span>
+          </div>
+          <hr />
+        </header>
+
+        <ul>
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Avocado & Egg Toast</h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/contains_nuts.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    w/ Signature Bread, EVOO, Vegan Mayo, Pickled Red Onion, Pea Sprouts, Sesame Seeds
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$14.00</div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices information-slot__prices--end">
-                <div>$13.95</div>
-              </div>
-          </div>
-        </li>
+            </div>
+          </li>
 
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Superfood Steal Cut Oatmeal</h3>
-                <div class="description">
-                  Oats, Chia Seeds, Maca, Flaxseeds, Sacha Inchi, Lucuma, Banana, Blueberry, Cinnamon, Almond Butter, Honey
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Curried Egg Salad Toast </h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    w/ Sourdough Bread, Cucumber, Red Onions, Chives, Lemon, EVOO
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$15.00</div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices information-slot__prices--end">
-                <div>$10.95</div>
-              </div>
-          </div>
-        </li>
+            </div>
+          </li>
 
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Açai Superfood Bowl</h3>
-                <div class="description">
-                  Açai, Banana, Fresh Berries, Almond Butter, Goji Berries, Cacao, Ginger Nut Crumble, Honey
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Pole-Caught Tuna Toast </h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/contains_nuts.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    w/ Sourdough Bread, Dill, Chermoula, Cucumber, Tomato, Avocado, Shallots, Chives
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$17.00</div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices information-slot__prices--end">
-                <div>$14.95</div>
-              </div>
-          </div>
-        </li>
-      </ul>
+            </div>
+          </li>
 
-      <header>
-        <div class="menu-container-row">
-          <span>Avocado Toast</span>
-          <div class="menu-container-submenu">
-            <div class="submenu">Regular</div>
-            <div class="submenu">Large</div>
+          <li>
+            <div class="information">
+              <div class="information__container">
+                <div class="information-slot">
+                  <div class="container__information-title">
+                    <h3 class="information-title">Jackfruit Mushroom Toast </h3>
+                    <div class="header__container header__container-mb-0">
+                      <div class="header__slot header__slot--mr-0">
+                        <img src="images/organic_igredients.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="description">
+                    w/ Sourdough Bread, Spinach, Parmesan, Tomato, Chermoula, Vegan Mayo
+                  </div>
+                </div>
+                <div class="information-slot information-slot__prices information-slot__prices--end">
+                  <div>$16.00</div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="menu menu--marginTop">
+          <header>
+            <div class="menu-row menu-row--mt-0">
+              <span>Soups</span>
+            </div>
+            <hr />
+          </header>
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Gazpacho V</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Tomatoes, Red Bell Pepper, Cucumber, Sunflower
+                      Oil, Onion, Red Wine Vinegar, Himalayan Salt, 
+                      Microgreens, Croutons
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$14.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Butternut Squash V</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Onion, Sunflower Oil, Sweet Potato, Carrot,Tomato, Bay Leaf, Garlic, Microgreens, Nutritional Yeast
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$14.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu menu--marginTop">
+          <header>
+            <span> Salads</span>
+            <hr />
+          </header>
+          
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Champagne Ranch</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Lettuce, Farro, Confit Tomatoes, Red Onions, Walnuts, Avocado, Radish
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$18.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Classic Caesar </h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Romaine lettuce, Radish, Croutons, Parmesan Cheese
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$18.00</div>
+                  </div>
+              </div>
+            </li>
+
+             <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Geek</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Tomatoes, Feta Cheese, Cucumber, Red Onions,Balsamic Vinegar, EVOO
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$16.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Garden Root Vegetable V</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Kale, Radish, Arugula, Walnuts, Rainbow Carrots, Beets, Orange, Celery, Fennel, Citrus Dressing
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$16.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <div class="menu-subheader">
+              <span>TOP IT OFF</span>
+            </div>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Avocado V</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$4.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Pole Caught Tuna Salad </h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$6.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Chicken</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$9.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Wild Caught Salmon Filet</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Turkey</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$7.00</div>
+                  </div>
+              </div>
+            </li>
+
+        </div>
+
+        <div class="menu menu--marginTop">
+          <header>
+            <span> Sandwiches</span>
+            <hr />
+          </header>
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Grilled Turkey Baguette</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Bell Pepper, Mushrooms, Red Onion, Tomato, Avocado, Chermoula, Pea Sprouts, Vegan Mayo
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$18.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Turmeric Chicken Sandwich</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Multigrain Bread, Romaine Lettuce, EVOO
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$16.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <div class="menu menu--border-0">
+              <header>
+                <div class="menu-row">
+                  <span>Wraps</span>
+                </div>
+                <hr />
+              </header>
+              <ul>
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Spicy Pole Caught Tuna Wrap</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          w/ Whole Wheat Wrap, Dill, Jalapeño, Radicchio,  Carrot, Apple, Spinach
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$16.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Marinated Vegetable Wrap</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          w/ Whole Wheat Wrap, Portobello, Red Peppers, Onions, Spinach,  Carrots, Vegan Mayo
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$14.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
           </div>
         </div>
-        <hr />
-      </header>
 
-      <ul>
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Classic</h3>
-                <div class="description">
-                  Avocado, EVOO, Himalayan Salt, Black Pepper
+        <div class="menu menu--marginTop">
+          <header>
+            <span>Smood Classics</span>
+            <hr />
+          </header>
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Cold Turkey Sandwich</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Performance Bread, Avocado, Tomato, Kale Pesto, EVOO
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$17.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Avocado Toast</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Performance Bread, EVOO, Himalayan Salt, Black Pepper
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$14.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Protein Toast</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Performance Bread, Avocado, Hummus, Cucumber, EVOO, Chili Flakes, Himalayan Salt, Black Pepper
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$16.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <div class="menu-subheader">
+              <span>TOP IT OFF</span>
+            </div>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Hot Sauce V</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$2.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Pole Caught Tuna Salad </h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$6.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Turmeric Chicken</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$7.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information information--margin-20">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Wild Caught Smoked Salmon</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$9.00</div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="menu menu--marginTop">
+          <header>
+            <span>Pastas</span>
+            <hr />
+          </header>
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Farro Fusilli Kale Pesto </h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Walnuts, Parmesan Cheese
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$19.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Farro Fusilli Marinara </h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      w/ Extra-Virgin Olive Oil, Parmesan Cheese
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$19.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Tuna Confit Tomato Pasta</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Pole Caught Tuna, Confit Tomato, Garlic, Basil
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$19.00</div>
+                  </div>
+              </div>
+            </li>
+          </ul>
+
+          <div class="menu menu--border-0">
+            <header>
+              <div class="menu-row">
+                <span>Plates</span>
+              </div>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Protein Blend </h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Farro, Confit Tomatoes, Red Onion, Chickpeas, Spinach, Egg, Chermoula Sauce
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$19.00</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Jackfruit Wild Rice V</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        w/ Farro, Mushroom, Confit Tomatoes, Avocado, Carrot,Red Bell Pepper, Chickpeas, 
+                        Radicchio, Citrus Dressing, Turmeric Coconut Dressing
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$19.00</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Wild Salmon Poke</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        w/ Wild Rice, Pickled Onions, Avocado, Pea Shoots, 
+                        Cucumbers, Almond Sesame Dressing, Kimchi, Scallions,
+                        Sesame Seeds 
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$19.00</div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          
+          <div class="menu menu--border-0">
+            <header>
+              <div class="menu-row">
+                <span>Chef Selects</span>
+              </div>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Smoked Wild Salmon Toast</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        w/ Multigrain Bread, Vegan Cream Cheese, Pickled Onions, Capers, Dill, EVOO
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$19.00</div>
+                    </div>
+                </div>
+              </li>
+              
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Balsamic Glazed Chicken</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        w/ Arugula, Kale, Fennel, Confit Tomato,  Balsamic Vinegar,  Parmesan Cheese, EVOO
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$24.00</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Wild Salmon Filet</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        w/ Wild Rice, Broccoli, Confit Tomato, Fennel, Persillade, Kale Pesto, Lemon
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$27.00</div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="menu menu--marginTop">
+          <header>
+            <span>Smoodys</span>
+            <hr />
+          </header>
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Smart Meal Banana Shake</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Smart Meal, Almond Mylk, Banana
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$16.00</div>
+                  </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Green Protein</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      25g Plant Protein Powder, Almond Mylk, Moringa,Maca, Banana, Avocado, Kale, Spinach, Raw Honey
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$14.00</div>
+                  </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Cacao Protein</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      21g Cacao Plant Protein, Almond Mylk, Banana, Almond Butter, Date Paste
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$14.00</div>
+                  </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Strawberry Banana</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Oat Mylk, Strawberry, Banana, Date,  Coconut 
+                      Syrup, Coconut Yogurt
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$14.00</div>
+                  </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Açai</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Oat Mylk, Açai, Blueberry, Strawberries, Banana,Avocado, Lucuma, Coconut Palm Sugar
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
+              </div>
+            </li>
+      
+           <div class="menu menu--border-0">
+              <header>
+                <div class="menu-row">
+                  <span>Specialty Drinks</span>
+                </div>
+                <hr />
+              </header>
+              <ul>
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Ceremonial Matcha</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/vegan.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Cashew Mylk, Ceremonial Matcha Tea
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$7.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+      
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Lavender Blueberry Matcha</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Cashew Mylk, Ceremonial Matcha, Lavender, Blueberry, Lemon, Vanilla, Raw Honey
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$7.50</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+      
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Lavender Blueberry Latte</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Cashew Mylk, Blueberry, Raw Honey, Lemon Zest,Vanilla Extract, Dried Lavender
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$7.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+      
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Hot Cacao</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/vegan.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Cashew Mylk, Cacao Butter, Maple Syrup, CacaoPowder, Coconut Crystals, Vanilla, Himalayan Salt
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$6.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+      
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Golden Mylk Latte</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Cashew Mylk, Turmeric, Cinnamon, Cardamom, Pomegranate Powder, Black Pepper, Raw Honey
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$7.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+      
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Hawaj White Coffee</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/vegan.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Cashew Mylk, Ginger, Cinnamon, Cardamom, Clove
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$7.00</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+      
+                <li>
+                  <div class="information">
+                    <div class="information__container">
+                      <div class="information-slot">
+                        <div class="container__information-title">
+                          <h3 class="information-title">Red Velvet Latte</h3>
+                          <div class="header__container header__container-mb-0">
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/vegan.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/organic_igredients.svg">
+                            </div>
+                            <div class="header__slot header__slot--mr-0">
+                              <img src="images/contains_nuts.svg">
+                            </div>
+                          </div>
+                        </div>
+                        <div class="description">
+                          Almond Mylk, Beet Juice, Maca, Vanilla
+                        </div>
+                      </div>
+                      <div class="information-slot information-slot__prices information-slot__prices--end">
+                        <div>$7.50</div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+          </div>
+      
+          <div class="menu menu--border-0 menu--marginTop">
+            <header>
+              <span>Teas</span>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Detox Roots</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Ginger, Turmeric, Licorice, Nutmeg, Black Pepper, 
+                        Organic Clove <br> <span class="information__emphasis">Enjoy hot or iced</span> 
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$4.00</div>
+                    </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">White Pomegranate Ginger</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Fujian White Tea, Pomegranate Seeds, Ginger Root,  Rose Petals, 
+                        Strawberry Pieces, Peach Pieces <br> <span class="information__emphasis">Enjoy hot or iced</span> 
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$4.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Queen of Earl</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Ceylon Black Tea, Bergamot Oil, Caramel <br> <span class="information__emphasis">Enjoy hot or iced</span> 
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$4.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="menu menu--border-0 menu--marginTop">
+            <header>
+              <span>Coffe</span>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Expresso</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$3.00</div>
+                    </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Macchiato</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$4.50</div>
+                    </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Cortado</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$4.25</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Americano</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$4.50</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Cold Brew</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$5.00</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Latte</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$5.50</div>
+                    </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Raw Mocha</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$7.00</div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>  
+      
+          <div class="menu menu--border-0 menu--marginTop">
+            <header>
+              <span>Side | 2oz House Made Mylk</span>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Organic Cashew Mylk</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$1.00</div>
+                    </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Organic Oat Mylk</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$1.00</div>
+                    </div>
+                </div>
+              </li>
+              
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Organic Almond Mylk</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$1.00</div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>  
+      
+          <div class="menu menu--border-0 menu--marginTop">
+            <header>
+              <span>Side | 2oz Milk</span>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information information--margin-20">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Whole Milk</h3>
+                        <div class="header__container header__container-mb-0">
+                         <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$1.00</div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>  
+        </div>
+      
+        <div class="menu menu--marginTop">
+          <header>
+            <span>Grab & Go Drinks</span>
+            <hr />
+          </header>
+          <ul>
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Alkaline Water</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      High Alkaline Water
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$3.50</div>
+                  </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Orange Juice</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Cold-Pressed Orange Juice
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$9.00</div>
+                  </div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices">
-                <div>$9.95</div>
-                <div>$13.95</div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Protein</h3>
-                <div class="description">
-                  Avocado, Hummus, Cucumber, EVOO, Chili Flakes, Himalayan Salt, Black Pepper
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Grapefruit Juice</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Cold-Pressed Grapefruit Juice
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$10.00</div>
+                  </div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices">
-                <div>$10.95</div>
-                <div>$15.95</div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Curried Egg Salad Toast</h3>
-                <div class="description">
-                  Avocado, Egg, Curry, Turmeric, Vegan Mayo, EVOO,  Green Onions, Parsley, Paprika
+            </li>
+            
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Fruit Juice No.2</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Apple, Pineapple, Turmeric, Lemon
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$11.00</div>
+                  </div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices">
-                <div>$11.95</div>
-                <div>$15.95</div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Smoked Salmon Toast</h3>
-                <div class="description">
-                  Wild Smoked Salmon, Avocado, EVOO, Himalayan Salt, Black Pepper 
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Fruit Juice No.3</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Orange, Pineapple, Strawberry, Pear
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$11.00</div>
+                  </div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices">
-                <div>$9.95</div>
-                <div>$13.95</div>
-              </div>
-            </div>
-          </div>
-        </li>
-
-        <li>
-          <div class="information">
-            <div class="information__container">
-              <div class="information-slot">
-                <h3 class="information-title">Spicy Jalapeño</h3>
-                <div class="description">
-                  Avocado, Jalapeño, Cilantro, Vegan Mayo, EVOO, Himalayan Salt, Black Pepper
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Green Juice No.5</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Cucumber, Celery, Parsley, Spinach, Lime, E-3 Live
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
                 </div>
               </div>
-              <div class="information-slot information-slot__prices">
-                <div>$9.95</div>
-                <div>$13.95</div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Detox Juice No.8</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Cucumber, Celery, Apple, Parsley, Spinach, Ginger, Lemon
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
+                </div>
               </div>
-            </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Detox Juice No.9</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Ginger, Lemon, Lime, Raw Honey, Oregano, Cayenne, Echinacea, Turmeric
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Coconut Water</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Young Thai Coconut Water
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$8.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Slimmer</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Grapefruit, Lemon, Green Coffee Beans, Garcinia Cambogia, Açai
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$8.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Beauty Elixir</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Orange Peel, Thyme, Rosemary, Rose Petal
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$8.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Damage Control</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Coconut Water, Grapefruit, Ginger, Activated Charcoal, Milk Thistle, Geolite
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$11.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Ginger-Lime Booster Shot</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Ginger, Lime, Turmeric
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$7.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Turmeric Booster Shot</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Turmeric, Black Pepper
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$9.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Açai Bowl To-Go</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/vegan.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      Oat Mylk, Açai, Blueberry, Strawberries, Banana,  Avocado, Lucuma, Coconut Palm Syrup
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+      
+            <li>
+              <div class="information">
+                <div class="information__container">
+                  <div class="information-slot">
+                    <div class="container__information-title">
+                      <h3 class="information-title">Green Protein</h3>
+                      <div class="header__container header__container-mb-0">
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/organic_igredients.svg">
+                        </div>
+                        <div class="header__slot header__slot--mr-0">
+                          <img src="images/contains_nuts.svg">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="description">
+                      25g Plant Protein Powder, Almond Mylk, Moringa,Maca, Banana, Avocado, Kale, Spinach, Raw Honey
+                    </div>
+                  </div>
+                  <div class="information-slot information-slot__prices information-slot__prices--end">
+                    <div>$12.00</div>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+      
+          <div class="menu menu--marginTop menu--border-0">
+            <header>
+              <span>Grab & Go Food</span>
+              <hr />
+            </header>
+            <ul>
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Matcha Maca Chia Pudding </h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Chia Seeds, Almond Mylk, Cashews, Maca,
+                        Lucuma, Matcha, Coconut Palm Sugar, Vanilla,
+                        Himalayan Salt, Mulberries, Pumpkin Seeds, 
+                        Goji Berries
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$8.00</div>
+                    </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Raw Oats W/ Raspberry Coulis </h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Raw Oats, Almonds, Banana, Apple, Coulis: Raspberry, Dates, Apple
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$11.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Sweet & Salty Fudge</h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Brazil Nuts, Dates, Mesquite, Raw Honey, Maca, Coconut Butter, Vanilla, Cacao
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$10.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+      
+              <li>
+                <div class="information">
+                  <div class="information__container">
+                    <div class="information-slot">
+                      <div class="container__information-title">
+                        <h3 class="information-title">Cacao Coconut Fudge </h3>
+                        <div class="header__container header__container-mb-0">
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/vegan.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/organic_igredients.svg">
+                          </div>
+                          <div class="header__slot header__slot--mr-0">
+                            <img src="images/contains_nuts.svg">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="description">
+                        Dates, Cacao, Maca, Coconut Flakes, Goji Berries
+                      </div>
+                    </div>
+                    <div class="information-slot information-slot__prices information-slot__prices--end">
+                      <div>$10.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
-        </li>
-      </ul>
-      <div class="footer-menu">Served on low-GI Performance Bread made with ancient grains</div>
-    </section>
+      </section>
 
     <section class="info-container">
       <h1>Café Smood (Insert Location Name)</h1>
