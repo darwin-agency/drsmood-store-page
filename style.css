@@ -53,6 +53,12 @@
   overflow: hidden;
 }
 
+.menu--border-0{
+  width: 100%;
+  border: 0px;
+  padding: 0px;
+}
+
 .menu--marginTop{
   margin-top: 60px;
 }
@@ -119,15 +125,18 @@
   margin-top: 20px;
 }
 
+.information__emphasis{
+  font-weight: 330;
+}
+
 .footer-menu{
   width: 100%;
-  border: 1px solid black;
   border-bottom:0px;
   line-height: 58.3px;
   text-align: center;
   font-family: "Denton Condensed";
   font-style: italic;
-  font-size: 22px;
+  font-size: 20px;
   margin-top: 46px;
   margin-bottom: -15px;
 }
