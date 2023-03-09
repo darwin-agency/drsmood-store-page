@@ -6,6 +6,7 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
   font-family: "Denton Condensed Italic";
   src: url("DentonCondensed-RegularItalic.woff2") format("woff2"),
@@ -26,7 +27,7 @@
 
 *::-webkit-scrollbar-thumb {
   border-radius: 15px;
-  background-color: #D9D9D9;
+  background-color: #d9d9d9;
 }
 
 .store-container {
@@ -40,38 +41,38 @@
   height: 100vh;
 }
 
-.header__container{
+.header__container {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
 }
 
-.header__container-mb-0{
+.header__container-mb-0 {
   margin-bottom: 0px;
 }
 
-.header__slot{
+.header__slot {
   display: flex;
   height: 100%;
   align-items: center;
   margin-right: 15px;
 }
 
-.header__slot--mr-0{
+.header__slot--mr-0 {
   margin-right: 0px;
 }
 
-.header__slot img{
+.header__slot img {
   margin-left: 4px;
   width: 13px;
   height: 13px;
 }
 
-.header__slot .header__title-bold{
+.header__slot .header__title-bold {
   font-weight: 450;
 }
 
-.menu__container{
+.menu__container {
   width: 100%;
   height: 100%;
   overflow: auto;
@@ -84,13 +85,13 @@
   overflow: hidden;
 }
 
-.menu--border-0{
+.menu--border-0 {
   width: 100%;
   border: 0px;
   padding: 0px;
 }
 
-.menu--marginTop{
+.menu--marginTop {
   margin-top: 30px;
 }
 
@@ -100,7 +101,7 @@
   gap: 1px;
 }
 
-.menu-subheader{
+.menu-subheader {
   border-bottom: 3px dashed black;
   font-size: 25px;
   font-weight: 420;
@@ -115,7 +116,7 @@
   margin-top: 30px;
 }
 
-.menu-row--mt-0{
+.menu-row--mt-0 {
   margin-top: 0px;
 }
 
@@ -156,17 +157,17 @@
   flex-direction: column;
 }
 
-.information--margin-20{
+.information--margin-20 {
   margin-top: 20px;
 }
 
-.information__emphasis{
+.information__emphasis {
   font-weight: 330;
 }
 
-.footer-menu{
+.footer-menu {
   width: 100%;
-  border-bottom:0px;
+  border-bottom: 0px;
   line-height: 58.3px;
   text-align: center;
   font-family: "Denton Condensed";
@@ -176,7 +177,7 @@
   margin-bottom: -15px;
 }
 
-.container__information-title{
+.container__information-title {
   display: flex;
   align-items: center;
 }
@@ -213,11 +214,11 @@
   font-family: "Brandon-Grotesque";
 }
 
-.information-slot__prices--column{
+.information-slot__prices--column {
   flex-direction: column;
 }
 
-.information-slot__prices--end{
+.information-slot__prices--end {
   justify-content: flex-end;
   width: auto;
 }
@@ -349,7 +350,7 @@ h3 {
 
 @media screen and (max-width: 1100px) {
   .store-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
     height: auto;
     max-height: auto;
